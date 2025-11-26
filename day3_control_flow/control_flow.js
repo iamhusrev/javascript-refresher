@@ -133,7 +133,7 @@ const person = {
   age: 30,
 };
 for (let key in person) {
-  console.log(key, person[key]); //! person.key is undefined
+  console.log(key, person[key]); //! person.key is undefined because we don't know the key name dynamically
 }
 
 //! 5. For-Of Loop
